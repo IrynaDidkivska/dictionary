@@ -48,12 +48,16 @@ This will launch the app in your default browser.
 ## Project Structure
 
 ```
-📂 dictionary
+📂 dictionary-app
 │-- 📂 dist
-│-- main.ts
-│-- interface.ts
-│-- index.html
+│-- 📂 public
+│   │-- styles.css
+│-- 📂 src
+│   │-- main.ts
+│   │-- interface.ts
+│   │-- index.html
 │-- README.md
 │-- package.json
 │-- tsconfig.json
+│--webpack.config.js
 ```

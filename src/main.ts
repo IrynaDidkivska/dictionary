@@ -1,4 +1,5 @@
 import { Definitions, ItemMeanings, Sound } from "./interface";
+import "../public/styles.css";
 
 const form = document.querySelector("form")!;
 const input: HTMLInputElement | null = document.querySelector(".word-field");
